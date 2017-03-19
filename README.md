@@ -113,6 +113,7 @@ whatsForDinner(); // prints 'I'm eatin' a bit of ribeye! Burp.'
 digest();
 whatsForDinner(); // prints 'My belly is empty. Woe is me.'
 ```
+m
 
 Another thing to watch out for is that closures are the most common source of performance issues and memory leaks. Since
 the variables that are closed over might still be in use, they're either never or barely picked up by the garbage
